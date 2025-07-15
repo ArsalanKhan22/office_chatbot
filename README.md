@@ -58,6 +58,7 @@ The Flask server will start on:
 http://<server_ip>:8000
 ```
 Replace <server_ip> in chat_utils_api.py with your actual LAN IP address.
+Note: Make a directory namely assets and copy beep.mp3 file to that directory.
 
 ## 💬 2. Run Streamlit Chat UI (on any PC in the network)
 
