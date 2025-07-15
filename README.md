@@ -61,10 +61,10 @@ Replace <server_ip> in chat_utils_api.py with your actual LAN IP address.
 Note: Make a directory namely assets and copy beep.mp3 file to that directory.
 
 ## 💬 2. Run Streamlit Chat UI (on any PC in the network)
-
+```bash
 streamlit run app.py
-
-    Each user logs in with their name and selects a recipient to chat with.
+```
+Each user logs in with their name and selects a recipient to chat with.
 
 ## 🧠 Developer Notes
 
@@ -85,11 +85,6 @@ streamlit run app.py
     📡 Deploy with gunicorn, nginx, or Docker
 
     🔐 Add HTTPS with self-signed certs for LAN
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
-Feel free to use, modify, and share.
 
 ## 🙋‍♂️ Contributions
 
